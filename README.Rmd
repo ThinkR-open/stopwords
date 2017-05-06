@@ -11,3 +11,8 @@ knitr::opts_chunk$set(
   fig.path = "README-"
 )
 ```
+
+```{r}
+library("stopwords")
+sample( stopwords_iso$fr, 20)
+```
